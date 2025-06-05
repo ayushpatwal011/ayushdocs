@@ -21,12 +21,12 @@ const BlogList = () => {
 
   return (
     <div>
-      <menu className="flex justify-center items-center gap-4 sm:gap-8 my-10">
+      <menu className="flex justify-center items-center gap-1 md:gap-4 sm:gap-8 my-10">
         {blogCategories.map((item) => (
           <div key={item} className="relative">
             <button
               onClick={() => setMenu(item)}
-              className={`cursor-pointer sm:text-lg px-3 py-1.5 rounded-xl transition-all duration-200 ${
+              className={`cursor-pointer sm:text-lg px-2 py-1.5 rounded-xl transition-all duration-200 ${
                 menu === item ? "text-white bg-primary" : ""
               }`}
             >
