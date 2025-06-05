@@ -6,7 +6,7 @@ import adminRouter from "./routes/adminRoutes.js"
 import blogRouter from "./routes/blogRoutes.js"
 
 // allow multiple origin
-const allowOrigins = ["http://localhost:5173", "https://ayushdocs-rcmw0a83y-ayushpatwals-projects.vercel.app" ]
+const allowOrigins = ["http://localhost:5173", "https://ayushdocs-rcmw0a83y-ayushpatwals-projects.vercel.app", "https://ayushdocs.vercel.app" ]
 
 const app = express()
 const PORT = process.env.PORT || 3000 
