@@ -10,7 +10,7 @@ const Footer = () => {
                 <div>
                    <div className="flex justify-center font-bold text-3xl">
                              <img className="h-9" src={assets.logo} alt="Logo" />
-                             <strong className="pt-1">VegCart</strong>
+                             <strong className="pt-1">Ayushdocs</strong>
                            </div>
                     <p className="max-w-[410px] mt-6 text-xl">We deliver fresh groceries and snacks straight to your door. Trusted by thousands, we aim to make your shopping experience simple and affordable.</p>
                 </div>
