@@ -22,14 +22,14 @@ const Layout = () => {  // renamed to PascalCase
           <img
             src={assets.logo}
             alt="logo"
-            className="w-8 sm:w-10 cursor-pointer"
+            className="w-6 sm:w-10 cursor-pointer"
             onClick={() => navigate("/")}
           />
-          <strong className="pt-1">AyushDocs</strong>
+          <strong className="pt-1 text-xs sm:text-lg">AyushDocs</strong>
         </div>
         <button
           onClick={logout}
-          className="cursor-pointer flex justify-center items-center gap-2 px-6 py-1.5 transition rounded-3xl text-white bg-primary hover:bg-primary-dull"
+          className="cursor-pointer flex justify-center items-center gap-2 px-6 py-1.5 text-xs md:text-lg transition rounded-3xl text-white bg-primary hover:bg-primary-dull"
         >
           Logout
         </button>
